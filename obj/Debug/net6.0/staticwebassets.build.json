@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UKIpLZBKiOxeZtMJ4bMWEpMNSmqQRKelDitVmFC8V2M=",
+  "Source": "postgressdb",
+  "BasePath": "_content/postgressdb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
