@@ -58,5 +58,12 @@ public class TeamController : Controller
         return NoContent();
 
     }
+    [HttpDelete]
+    public IActionResult Delete(int id){
+        var cur = team.FirstOrDefault(team=>team.Id == id);
+        if (cur == null)return BadRequest("Error");
+        team.Remove(cur);
+        return NoContent();
+    }
 }
 
